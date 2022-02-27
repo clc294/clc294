@@ -31,6 +31,7 @@ li {
     	position:fixed;
     	top:0;
     	left:0;
+      z-index: 99999;
 }
 /* NAVBAR MENU */
 .menu {
@@ -43,6 +44,8 @@ li {
  justify-content: center;
  padding: 35px;
  font-size: 18px;
+ z-index: 99999;
+ position: fixed;
 }
 .menu li:hover {
  background-color: #4c9e9e;
@@ -313,4 +316,106 @@ body {
     font-weight: 300;
     letter-spacing: 5px;
     margin-top: 1.2rem;
+}
+h4 {
+  padding: 15px;
+  font-family: sans-serif;
+  text-align: center;
+  color:#FFFFFF;
+  background-color:#D2B48C;
+  font-size: 30px;
+}
+h5 {
+  color: #000000;
+  padding: 15px;
+  font-size: 30px;
+  text-align: center;
+  position: fixed;
+  margin-top: -300px;
+  width: 100%;
+}
+p1{
+position: absolute;
+font-family: sans-serif;
+text-align: center;
+color:#000000;
+font-size: 20px;
+margin-top: -150px;
+width: 100%;
+}
+.twine-img {
+  width: 250px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 230;
+}
+.twine-img img {
+    width: 100%;
+    height: auto;
+}
+h6 {
+  color: #000000;
+  padding: 15px;
+  font-size: 30px;
+  text-align: center;
+  position: fixed;
+  margin-top: -400px;
+  width: 100%;
+}
+p2{
+position: fixed;
+font-family: sans-serif;
+text-align: center;
+color:#000000;
+font-size: 15px;
+margin-top: -300px;
+width: 100%;
+}
+.app-img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-top: 150;
+  width: 400px;
+  height: auto;
+}
+.app-img img {
+  width: 300px;
+  height: auto;
+}
+h7 {
+  color: #000000;
+  padding: 15px;
+  font-size: 30px;
+  text-align: center;
+  position: fixed;
+  margin-top: -350px;
+  width: 100%;
+}
+p3{
+  color: #000000;
+  padding: 15px;
+  font-size: 15px;
+  text-align: center;
+  position: fixed;
+  margin-top: -300px;
+  width: 100%;
+}
+p4{
+    color: #000000;
+    padding: 15px;
+    font-size: 15px;
+    text-align: center;
+    position: fixed;
+    margin-top: -250px;
+    width: 100%;
+}
+iframe {
+  padding: 150px;
+  width= 800;
+  height=300;
+  margin: 0 auto;
+  display:block;
 }
